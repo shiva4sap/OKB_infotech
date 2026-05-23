@@ -118,11 +118,17 @@ export default function App() {
             className="fixed inset-0 z-50 bg-slate-950 flex flex-col items-center justify-center font-sans select-none"
           >
             <div className="space-y-6 text-center animate-pulse">
-              {/* Double rotational premium rings */}
-              <div className="relative w-20 h-20 mx-auto">
+              {/* Double rotational premium rings with centered logo */}
+              <div className="relative w-24 h-24 mx-auto flex items-center justify-center">
                 <div className="absolute inset-0 rounded-full border-4 border-slate-900" />
                 <div className="absolute inset-0 rounded-full border-4 border-sky-500 border-t-transparent animate-spin" style={{ animationDuration: "0.8s" }} />
                 <div className="absolute inset-2 rounded-full border-4 border-indigo-500 border-b-transparent animate-spin" style={{ animationDuration: "1.2s", animationDirection: "reverse" }} />
+                <img 
+                  src="/OKB.png" 
+                  alt="OKB Logo" 
+                  className="w-12 h-12 object-contain rounded-lg relative z-10"
+                  referrerPolicy="no-referrer"
+                />
               </div>
 
               <div className="space-y-1.5 pt-2">

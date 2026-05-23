@@ -31,11 +31,14 @@ export default function Footer({ scrollToSection }: FooterProps) {
           <div className="md:col-span-5 space-y-4 text-left">
             <button
               onClick={() => scrollToSection("home")}
-              className="flex items-center gap-2 group text-left cursor-pointer"
+              className="flex items-center gap-3 group text-left cursor-pointer"
             >
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-sky-500 to-indigo-500 flex items-center justify-center text-white font-bold text-sm">
-                <Sparkles className="w-4 h-4 text-white" />
-              </div>
+              <img 
+                src="/OKB.png" 
+                alt="OKB Logo" 
+                className="w-10 h-10 object-contain rounded-lg hover:scale-105 transition-transform duration-300"
+                referrerPolicy="no-referrer"
+              />
               <div>
                 <span className="font-display font-black text-base text-white tracking-tight">
                   OKB INFOTECH
@@ -155,7 +158,7 @@ export default function Footer({ scrollToSection }: FooterProps) {
             <span>•</span>
             <span className="hover:text-sky-400 cursor-pointer">Terms of Service</span>
             <span>•</span>
-            <a href="mailto:shiva4sap@gmail.com" className="hover:text-sky-400">Support</a>
+            <a href="mailto:admin@okbit.in" className="hover:text-sky-400">Support</a>
           </div>
         </div>
 

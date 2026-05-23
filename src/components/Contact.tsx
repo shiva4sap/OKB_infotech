@@ -171,10 +171,10 @@ export default function Contact({ selectedService, selectedPackage }: ContactPro
                      Send Proposal Line
                    </span>
                    <a
-                     href="mailto:shiva4sap@gmail.com"
+                     href="mailto:admin@okbit.in"
                      className="text-sm font-semibold font-mono text-slate-800 dark:text-slate-200 hover:text-sky-500 transition-colors"
                    >
-                     shiva4sap@gmail.com
+                     admin@okbit.in
                    </a>
                  </div>
                </div>
@@ -217,45 +217,7 @@ export default function Contact({ selectedService, selectedPackage }: ContactPro
                  </div>
                </div>
 
-               {/* Contact Office Address */}
-               <div className="p-4 rounded-xl border border-slate-100 dark:border-slate-900 bg-slate-50/50 dark:bg-slate-900/40 flex items-center gap-4">
-                 <div className="w-10 h-10 rounded-lg bg-indigo-500/10 dark:bg-indigo-500/5 text-indigo-600 dark:text-indigo-400 flex items-center justify-center shrink-0">
-                   <MapPin className="w-5 h-5" />
-                 </div>
-                 <div>
-                   <span className="block text-[10px] font-bold uppercase tracking-wider text-slate-450 dark:text-slate-500 leading-none mb-1">
-                     Knowledge Workspace
-                   </span>
-                   <span className="text-xs font-semibold text-slate-700 dark:text-slate-300">
-                     Whitefield Technology Park, Bangalore, Karnataka, India
-                   </span>
-                 </div>
-               </div>
              </div>
-
-            {/* Simulated Map Frame */}
-            <div className="rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 h-50 relative bg-slate-100 dark:bg-slate-900" id="simulated-map-frame">
-              {/* Slate themed styled drawing mapping representation */}
-              <div 
-                className="absolute inset-0 opacity-40 dark:opacity-30"
-                style={{ 
-                  backgroundImage: "radial-gradient(circle, #475569 1px, transparent 1px)", 
-                  backgroundSize: "16px 16px" 
-                }} 
-              />
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center">
-                <div className="w-9 h-9 rounded-full bg-red-500/20 flex items-center justify-center animate-ping absolute" />
-                <div className="w-6 h-6 rounded-full bg-red-500 border-2 border-white dark:border-slate-950 flex items-center justify-center shadow-lg relative z-10">
-                  <Sparkles className="w-3 h-3 text-white" />
-                </div>
-                <span className="mt-2.5 px-3 py-1 bg-slate-950/90 text-[10px] font-mono tracking-widest uppercase font-bold text-white rounded-md shadow-md border border-slate-750 select-none">
-                  OKB HQ — Whitefield
-                </span>
-              </div>
-              <div className="absolute bottom-2 left-3 text-[9px] font-mono opacity-60 text-slate-550">
-                Lat/Long: 12.9698° N, 77.7500° E
-              </div>
-            </div>
           </div>
 
           {/* Right: Consultation Request Ticket Form */}
@@ -519,7 +481,7 @@ export default function Contact({ selectedService, selectedPackage }: ContactPro
                         OKB AUTORECEIVER SYSTEM LOG
                       </div>
                       <div className="font-mono text-xs space-y-1.5 leading-relaxed text-slate-600 dark:text-slate-350">
-                        <div><strong className="text-slate-850 dark:text-slate-250">Target Routing:</strong> shiva4sap@gmail.com</div>
+                        <div><strong className="text-slate-850 dark:text-slate-250">Target Routing:</strong> admin@okbit.in</div>
                         <div><strong className="text-slate-850 dark:text-slate-250">Priority Code:</strong> OKB-BLUE-PRIORITY-2026</div>
                         <div><strong className="text-slate-850 dark:text-slate-250">Verification SLA:</strong> Instant automatic response generated. Our lead technician will review this specification and follow up via <span className="underline">{formData.email}</span> within 12 hours.</div>
                       </div>

@@ -58,44 +58,12 @@ export const SERVICES: Service[] = [
     category: "enterprise",
   },
   {
-    id: "digital-marketing",
-    title: "Digital Marketing & SEO",
-    description: "Result-oriented visibility campaigns that position your company directly in front of active high-intent search volumes.",
-    benefits: ["Keyword gap analysis and strategy", "Page-speed core web vitals adjustments", "PPC optimization for high ROI"],
-    startingPrice: "₹11,999 / month",
-    category: "marketing",
-  },
-  {
-    id: "cloud-systems",
-    title: "Cloud Based Systems",
-    description: "Architectural migrations to bulletproof cloud cloud services like AWS, GCP, and Cloud Run for maximum reliability.",
-    benefits: ["Zero-downtime microservice migrations", "Cost-saving infrastructure audits", "Auto-backup routine schedules"],
-    startingPrice: "₹29,999 onward",
-    category: "enterprise",
-  },
-  {
-    id: "automation-tools",
-    title: "Custom Automation Tools",
-    description: "Custom scripts and workflows that completely automate monotonous manual Excel / CSV / email scraping routines.",
-    benefits: ["Up to 90% human time savings", "No-code connection middleware nodes", "Background cron tasks"],
-    startingPrice: "₹9,900 onward",
-    category: "automation",
-  },
-  {
-    id: "api-integrations",
-    title: "API Integrations",
-    description: "Secure, reliable connectors linking legacy systems, payment bridges, social graphs, and internal services.",
-    benefits: ["Robust data parsing pipelines", "Modern tokenized authentication rules", "Webhooks for instant actions"],
-    startingPrice: "₹7,999 onward",
-    category: "enterprise",
-  },
-  {
     id: "support-maintenance",
     title: "Maintenance & Support",
     description: "24/7 systems vigilance monitoring package renewals, critical security patches, backups, and feature improvements.",
     benefits: ["SLA contracts with rapid responses", "Critical security patch alerts", "Periodic speed checkups"],
     startingPrice: "₹4,999 / month",
-    category: "marketing",
+    category: "enterprise",
   }
 ];
 
@@ -339,8 +307,8 @@ export const CHATBOT_PRESET_OPTIONS = [
 
 export const CHATBOT_RESPONSES: Record<string, string> = {
   welcome: "Hello! I am OKB's Virtual Growth Assistant. How can I help you transform your business operations today?",
-  services: "We build digital growth engines! Our specializations include: \n\n• Custom Web & App Development\n• WhatsApp Automated Broadcast Systems\n• Trained AI Chatbots & Customer Assistants\n• Customized CRM & ERP Operational Panels\n• Cloud Server Infrastructure Optimization.\n\nWhich sector fits your business needs?",
+  services: "We build digital growth engines! Our specializations include: \n\n• Custom Web & App Development\n• WhatsApp Automated Broadcast Systems\n• Trained AI Chatbots & Customer Assistants\n• Customized CRM & ERP Operational Panels\n• Continuous SLA Support & Maintenance.\n\nWhich sector fits your business needs?",
   packages: "We offer three transparent starting models:\n\n1. **Starter Package (₹9,999)**: 5-Page Responsive SEO Site\n2. **Business Package (₹24,999)**: Dynamic Portal + Admin Control + WhatsApp Direct API\n3. **Premium Automation (₹49,999)**: Advanced Portal + Custom CRM Core + Live AI Bot\n\nWe also design heavy enterprise customizations!",
-  booking: "Excellent choice! You can quickly book a completely free corporate strategy consultation. Scroll to our **Contact Section** to fill out the calendar request form, or drop an email directly to **shiva4sap@gmail.com** or send a message to us via the floating WhatsApp button!",
+  booking: "Excellent choice! You can quickly book a completely free corporate strategy consultation. Scroll to our **Contact Section** to fill out the calendar request form, or drop an email directly to **admin@okbit.in** or send a message to us via the floating WhatsApp button!",
   custom: "Customized solutions are our primary expertise! We specialize in transforming manual Google Sheets, paperwork, and fragmented workflows into robust, speed-optimized React engines. Drop us a brief description in the contact form below and our lead engineer will respond within 12 hours!"
 };

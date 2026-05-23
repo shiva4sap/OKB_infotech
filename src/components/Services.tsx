@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { 
   Laptop, ShoppingBag, Code, Smartphone, MessageSquare, Bot, 
-  Database, Target, Cloud, Cpu, Layers, Settings, Check, ArrowRight 
+  Database, Settings, Check, ArrowRight 
 } from "lucide-react";
 import { SERVICES } from "../data";
 import { Service } from "../types";
@@ -20,7 +20,6 @@ export default function Services({ scrollToSection, setSelectedService }: Servic
     { label: "Web & Mobile Platforms", id: "web-app" },
     { label: "AI & WhatsApp Automations", id: "automation" },
     { label: "Enterprise Systems", id: "enterprise" },
-    { label: "Marketing & Auditing", id: "marketing" },
   ];
 
   // Map string categories to specific icon components directly
@@ -32,10 +31,6 @@ export default function Services({ scrollToSection, setSelectedService }: Servic
     "whatsapp-auto": MessageSquare,
     "ai-chatbots": Bot,
     "crm-erp": Database,
-    "digital-marketing": Target,
-    "cloud-systems": Cloud,
-    "automation-tools": Cpu,
-    "api-integrations": Layers,
     "support-maintenance": Settings,
   };
 

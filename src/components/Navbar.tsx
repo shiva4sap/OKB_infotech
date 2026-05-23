@@ -54,13 +54,15 @@ export default function Navbar({
           {/* Logo */}
           <button
             onClick={() => scrollToSection("home")}
-            className="flex items-center gap-2 group text-left cursor-pointer"
+            className="flex items-center gap-3 group text-left cursor-pointer"
             id="nav-logo"
           >
-            <div className="relative w-10 h-10 rounded-xl bg-gradient-to-tr from-sky-600 to-indigo-600 flex items-center justify-center text-white shadow-md shadow-sky-500/20 group-hover:scale-105 transition-transform">
-              <Sparkles className="w-5 h-5 absolute animate-pulse" />
-              <span className="font-display font-bold text-sm tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">OKB</span>
-            </div>
+            <img 
+              src="/OKB.png" 
+              alt="OKB INFOTECH Logo" 
+              className="w-10 h-10 object-contain rounded-lg hover:scale-105 transition-transform duration-300"
+              referrerPolicy="no-referrer"
+            />
             <div>
               <span className="font-display font-extrabold text-lg tracking-tight bg-gradient-to-r from-slate-950 to-slate-800 dark:from-white dark:to-slate-200 bg-clip-text text-transparent">
                 OKB INFOTECH
